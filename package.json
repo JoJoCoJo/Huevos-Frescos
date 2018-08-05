@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "generate": "plop --plopfile internals/plop.js",
+    "setup": "node ./internals/scripts/setup.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.3.1",
+    "react-native": "0.55.4",
+    "react-redux": "^5.0.7",
+    "react-router-native": "^4.3.0",
+    "redux": "^4.0.0",
+    "styled-components": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.1.0",
+    "plop": "1.8.0",
+    "react-native-git-upgrade": "^0.2.7",
+    "react-test-renderer": "16.3.1",
+    "remote-redux-devtools": "^0.5.12",
+    "shelljs": "^0.8.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
